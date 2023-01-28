@@ -1,69 +1,95 @@
 @charset "UFT-8";
-
 *{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    box-sizing: border-box;
+    padding: 0px;
 }
 
-body, html{
-    height: 100vh;
-    width: 100vw;
+body,html{
+    background-color: gray;
 }
+
+header{
+    background-color: rgb(240, 228, 8);
+    text-align: center;
+    padding: 40px;
+}
+
+nav{ 
+    background-color: rgb(240, 228, 8);
+    padding: 20px;
+}
+
+nav>a{
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.496);
+    border-radius: 10px;
+    font-weight: bolder;
+    color: black;
+}
+
+nav>a:hover{
+  background-color: rgb(176, 164, 35);
+}
+
+
 main{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
+    background-color: rgb(255, 119, 0);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
 }
 
-section#cadastro{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    overflow: hidden;
-
-    background-color: white;
-    width: 250px;
-    height: 520px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.468);
-
-    transform: translate(-50%, -50%);
-    transition: width 0.3s, height 0.3s;
-    transition-timing-function: ease;
-}
-
-section#cadastro>div#imagem{
+section#entrada>div#imagem-1{
     display: block;
     background: url(../imagens/foto-1.jpg) no-repeat;
+    height: 250px;
     background-size: cover;
-    height: 200px;
+    background-position: bottom;
+    border-radius: 25px 25px 0px 0px;
 }
 
-section#cadastro>div#cadastro{
+section#entrada>div#imagem-2{
     display: block;
-    padding: 10px;
+    background: url(../imagens/foto-2.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: bottom left;
+    border-radius: 25px 25px 0px 0px;
 }
 
-div#cadastro>h1{
+section#entrada>div#imagem-3{
+    display: block;
+    background: url(../imagens/foto-3.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 25px 25px 0px 0px;
+}
+
+section#entrada>div#formulario{
+    display: block;
+    padding: 50px;
+}
+
+div#formulario>h1{
     text-align: center;
-    
-}
-div#cadastro>p{
-   margin-bottom: 1em;
+    margin-bottom: 35px;
 }
 
-form>div.campo{
-    background-color:#14213d;
-    display: block;
+div#formulario>input{
+    background-color: #d17e37;
+    padding: 20px;
+    height: 100%;
     width: 100%;
-    height: 40px;
-    border: 2px solid #14213d;
-    border-radius: 10px;
-    margin: 5px, 0px;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 1em;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.557);
 }
 
-div.campo>label{
-  display: none;
+div#formulario>input:hover{
+    background-color: #fe5d18;
 }

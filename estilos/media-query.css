@@ -1,1 +1,36 @@
 @charset "UFT-8";
+
+/*telas medias*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    
+    body{
+        background-image: linear-gradient(to top, green, yellow );
+    }
+
+
+    section#entrada{
+        width: 65vw;
+        height: 82vh;
+    }
+
+    section#entrada>div#imagem-1{
+        float: left;
+        width: 720px;
+        
+    }
+
+    section#entrada>div#formulario{
+        width: 100%;
+    }
+
+    div#formulario>input{
+       text-align: center;
+    }
+
+}
+
+
+/*telas grandes*/
+@media  screen and (min-width: 992px) {
+    
+}

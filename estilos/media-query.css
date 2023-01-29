@@ -9,28 +9,71 @@
 
 
     section#entrada{
-        width: 65vw;
-        height: 82vh;
+        width: 83vw;
+        height: 75vh;
     }
 
     section#entrada>div#imagem-1{
         float: left;
-        width: 720px;
+        width: 93.4vw;
+        height: 280px;
         
     }
+
+    section#entrada>div#imagem-2{
+        float: left;
+        width: 93.4vw;
+        height: 280px;
+        
+    }
+
+    section#entrada>div#imagem-3{
+        float: left;
+        width: 93.4vw;
+        background-position: bottom;
+        height: 280px;
+        
+    }
+
+    
 
     section#entrada>div#formulario{
         width: 100%;
     }
 
-    div#formulario>input{
-       text-align: center;
+    div#formulario>a.botao{
+        font-size: 1.8em;
     }
-
 }
+
+
 
 
 /*telas grandes*/
 @media  screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, rgb(128, 0, 0), rgb(76, 0, 255) );
+    }
+
+    section#entrada{
+        height: 95vh;
+    }
+
+    section#entrada>div#imagem-1{
+       height: 350px;
+
+    }
+    section#entrada>div#imagem-2{
+        height: 350px;
+
+    }
+    section#entrada>div#imagem-3{
+        height: 350px;
+
+    }
+
+    div#formulario>a.botao{
+        font-size: 1.9em;
+    }
     
 }

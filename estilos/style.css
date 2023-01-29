@@ -62,7 +62,7 @@ section#entrada>div#imagem-2{
 
 section#entrada>div#imagem-3{
     display: block;
-    background: url(../imagens/foto-3.jpg);
+    background: url(../imagens/foto-4.jpg);
     height: 250px;
     background-size: cover;
     background-position: bottom;
@@ -79,17 +79,20 @@ div#formulario>h1{
     margin-bottom: 35px;
 }
 
-div#formulario>input{
-    background-color: #d17e37;
-    padding: 20px;
-    height: 100%;
+div#formulario>a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
     width: 100%;
-    border: 0px;
+    height: 40%;
+    margin-top: 10px;
+    background-color: #d17e37;
+    color: black;
+    box-shadow:1px 1px 3px 0px rgba(0, 0, 0, 0.557) ;
     border-radius: 25px;
-    font-size: 1em;
-    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.557);
+    text-decoration: none;
 }
 
-div#formulario>input:hover{
+div#formulario>a:hover{
     background-color: #fe5d18;
 }

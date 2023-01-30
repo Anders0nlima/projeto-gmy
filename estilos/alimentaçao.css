@@ -1,0 +1,80 @@
+@charset "UFT-8";
+
+/*estilo da pagina de alimentaçao*/
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 1.4em;
+    padding-left: 30px;
+    font-size: 3vw;
+}
+
+section.imagem{
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.557);
+  color: black;
+}
+
+section.imagem>p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img05{
+    background-image: url(../imagens/foto-5.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 120px;
+    
+}
+
+section#img06{
+    background-image: url(../imagens/foto-6.jpg);
+    background-position: center;
+    background-size: cover;
+    height:120px;
+}
+
+section#img07{
+    background-image: url(../imagens/foto-7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+}
+
+section#img08{
+    background-image: url(../imagens/foto-8.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120px;
+}
+
+footer{
+    background-color:  rgb(41, 41, 41);
+    padding: 20px;
+    text-align: center;
+}
+footer>a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.496);
+    border-radius: 10px;
+    font-weight: bolder;
+    color:rgb(79, 79, 255);
+}
+footer>a:hover{
+    background-color: rgba(0, 0, 43, 0.646);;
+}
+
+

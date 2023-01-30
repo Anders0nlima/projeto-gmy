@@ -1,0 +1,48 @@
+@charset "UFT-8";
+
+/*configurações para telas grandes*/
+
+section{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    line-height: 1.3em;
+    padding-left: 40px;
+    font-size: 3vw;
+}
+
+section.imagem>p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: white;
+    padding: 8px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img05{
+    background-image: url(../imagens/foto-5.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 210px;
+    
+}
+
+section#img06{
+    background-image: url(../imagens/foto-6.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 210px
+}
+
+section#img07{
+    background-image: url(../imagens/foto-7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+section#img08{
+    background-image: url(../imagens/foto-8.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 210px;
+}

@@ -5,7 +5,6 @@
 section{
     padding-top: 15vh;
     padding-bottom: 15vh;
-   
     line-height: 1.3em;
     padding-left: 40px;
     font-size: 2em;
@@ -13,7 +12,7 @@ section{
 
 section#normal{
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px;  
 }
 
 

@@ -31,9 +31,9 @@ section.imagem>p{
 
 section#img05{
     background-image: url(../imagens/foto-5.jpg);
-    background-position: bottom;
+    background-position: left, bottom;
     background-size: cover;
-    height: 210px;
+    height: 200px;
     
 }
 
@@ -48,7 +48,7 @@ section#img07{
     background-image: url(../imagens/foto-7.jpg);
     background-position: center;
     background-size: cover;
-    height: 340px;
+    height: 280px;
 }
 
 section#img08{

@@ -2,10 +2,12 @@
 
 /*tela principal ajuste para da no celuler deitado*/
 
-main{
-    background-color: rgb(41, 41, 41);;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 30px;
-    height: 650px;
-}
+@media screen and (min-width:798px) and (max-width:892px){
+    main{
+        background-color: rgb(41, 41, 41);;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 30px;
+        height: 530px;
+    }
+    }

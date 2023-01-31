@@ -5,10 +5,18 @@
 section{
     padding-top: 15vh;
     padding-bottom: 15vh;
+   
     line-height: 1.3em;
     padding-left: 40px;
-    font-size: 3vw;
+    font-size: 2em;
 }
+
+section#normal{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
 
 section.imagem>p{
     display: inline-block;
@@ -37,7 +45,7 @@ section#img07{
     background-image: url(../imagens/foto-7.jpg);
     background-position: center;
     background-size: cover;
-    height: 300px;
+    height: 340px;
 }
 
 section#img08{
@@ -46,3 +54,48 @@ section#img08{
     background-size: cover;
     height: 210px;
 }
+
+section#img09{
+    background-image: url(../imagens/foto-9.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+section#img10{
+    background-image: url(../imagens/foto-10.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 210px;
+}
+
+section#img11{
+    background-image: url(../imagens/foto-11.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 210px;
+}
+
+section#img12{
+    background-image: url(../imagens/foto-12.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 210px;
+}
+
+section#img13{
+    background-image: url(../imagens/foto-13.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 210px;
+}
+
+section#img14{
+    background-image: url(../imagens/foto-14.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 210px;
+}
+
+
+
